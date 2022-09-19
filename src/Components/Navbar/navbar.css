@@ -1,0 +1,50 @@
+.nav-container{
+    background: #2B453D;
+    /* min-width: 100vw; */
+    padding:0 15px;
+/* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav{
+    display: flex;
+    width:70%;
+    margin-left: 6rem;
+    justify-content:  space-between;
+align-items: center;
+}
+.btn{
+    margin: 0px 20px;
+    font-size: 1.5rem;
+    color:white !important;
+    background-color: transparent;
+    border:none;
+    padding: 1rem 3rem;
+    outline:none;
+}
+.btn:hover{
+    background-color: white !important;
+    color: #2B453D !important;
+}
+.selected{
+    background-color: white ;
+    color: #2B453D ;
+}
+.icon{
+    border-radius: 50%;
+    width:6rem;
+    padding: 15px 0;
+}
+.heading{
+    width:10%;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+.bell_icon{
+    font-size: 2rem;
+    color:white;
+    /* background-color: white; */
+    border-color:white; 
+}
