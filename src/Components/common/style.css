@@ -1,0 +1,26 @@
+.donation_title{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+
+/* fund blue */
+
+color: #073695;
+}
+.donation_info{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* sec gray */
+
+color: #575757;
+}
