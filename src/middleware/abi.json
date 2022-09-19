@@ -1,0 +1,463 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "contractTOid",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "contracts",
+		"outputs": [
+			{
+				"internalType": "contract Disaster",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "amt",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "ilink",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "vlink",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "phone",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "smy",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "poolname",
+				"type": "string"
+			}
+		],
+		"name": "createPool",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			}
+		],
+		"name": "donate",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "fetch",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "status",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "poolId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "isChecked",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "phoneNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "videoLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "imageLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolSummary",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "poolAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct Relift.pool[3]",
+				"name": "",
+				"type": "tuple[3]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "x",
+				"type": "address"
+			}
+		],
+		"name": "getMyDonation",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "poolName",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Relift.donated[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "x",
+				"type": "address"
+			}
+		],
+		"name": "getMyPool",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "status",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "poolId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "isChecked",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "phoneNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "videoLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "imageLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolSummary",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "poolAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct Relift.pool",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getPools",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "status",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "poolId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "isChecked",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "phoneNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "videoLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "imageLink",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolSummary",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "poolName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "poolAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct Relift.pool[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "myPool",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "pools",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "status",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "poolId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "isChecked",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "phoneNumber",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "videoLink",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "imageLink",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "poolSummary",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "poolName",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "poolAddress",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
