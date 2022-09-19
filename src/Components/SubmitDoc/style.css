@@ -1,0 +1,83 @@
+.uploadTitle{
+    font-style: normal;
+font-weight: 500;
+width:100%;
+padding: 0 2rem;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: left;
+
+color: #000000;
+}
+.File_box{
+    width: 600px;
+height: 150px;
+left: 564px;
+top: 441px;
+
+/* white */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+background: #FCFCFC;
+/* Dark green */
+
+border: 1px dashed #2B453D;
+border-radius: 5px;
+}
+.upload_title{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark green */
+
+color: #2B453D;
+}_
+.doc_btn_wrapper{
+/* .doc_btn{ */
+    width: 350px;
+height: 80px;
+background: #188F24;
+border-radius: 10px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+text-align: center;
+
+/* white */
+
+color: #FCFCFC;
+}
+.doc_btn{
+        background: #188F24;
+    border-radius: 10px;
+    width: 350px;
+height: 80px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    border:none;
+    outline:none;
+    color: #FCFCFC;
+    }
+    .fund_btn:hover{
+        background: #0c8918;
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+}
+.doc_btn_wrapper{
+    padding-top:3rem;
+}
